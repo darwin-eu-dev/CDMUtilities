@@ -35,8 +35,14 @@
     </div>
 
     <div class="section level2">
-      <h2 id="all-functions">All functions<a class="anchor" aria-label="anchor" href="#all-functions"></a></h2>
+      <h2 id="utilities">Utilities<a class="anchor" aria-label="anchor" href="#utilities"></a></h2>
       
+      
+
+      
+    </div><div class="section level2">
+      
+      <h3 id="create-a-mock-cdm-object">Create a mock cdm object<a class="anchor" aria-label="anchor" href="#create-a-mock-cdm-object"></a></h3>
       
 
       
@@ -47,10 +53,154 @@
 
       <dl><dt>
           
-          <code><a href="bind.GeneratedCohortSet.html">bind(<i>&lt;GeneratedCohortSet&gt;</i>)</a></code> 
+          <code><a href="mockCdm.html">mockCdm()</a></code> 
         </dt>
-        <dd>Bind multiple GeneratedCohortSet objects.</dd>
+        <dd>It creates a mock cdm_reference.</dd>
       </dl><dl><dt>
+          
+          <code><a href="mockVocabularyCdm.html">mockVocabularyCdm()</a></code> 
+        </dt>
+        <dd>It creates a mock database with the vocabulary.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="check-inputs">Check inputs<a class="anchor" aria-label="anchor" href="#check-inputs"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="checkInput.html">checkInput()</a></code> 
+        </dt>
+        <dd>Check the input parameters in OMOP CDM Tools environment</dd>
+      </dl><dl><dt>
+          
+          <code><a href="listInputCheck.html">listInputCheck()</a></code> 
+        </dt>
+        <dd>List available inputs to check</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="export-results-to-csv-and-zip-files">Export results to csv and zip files<a class="anchor" aria-label="anchor" href="#export-results-to-csv-and-zip-files"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="exportResults.html">exportResults()</a></code> 
+        </dt>
+        <dd>Export list of results</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="temporary-behaviour-of-cohorts">Temporary behaviour of cohorts<a class="anchor" aria-label="anchor" href="#temporary-behaviour-of-cohorts"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="setTemporary.html">setTemporary()</a></code> 
+        </dt>
+        <dd>Set temporary (or permanent) behavior for compute functions.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="convert-strings-to-snake-case-or-camelcase">Convert strings to snake_case or camelCase<a class="anchor" aria-label="anchor" href="#convert-strings-to-snake-case-or-camelcase"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="toSnakeCase.html">toSnakeCase()</a></code> 
+        </dt>
+        <dd>Convert a character to snake_case</dd>
+      </dl><dl><dt>
+          
+          <code><a href="toCamelCase.html">toCamelCase()</a></code> 
+        </dt>
+        <dd>Convert a character to camelCase</dd>
+      </dl></div><div class="section level2">
+      <h2 id="classes">Classes<a class="anchor" aria-label="anchor" href="#classes"></a></h2>
+      
+      
+
+      
+    </div><div class="section level2">
+      
+      <h3 id="generatedcohortset">GeneratedCohortSet<a class="anchor" aria-label="anchor" href="#generatedcohortset"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="newGeneratedCohortSet.html">newGeneratedCohortSet()</a></code> 
+        </dt>
+        <dd>CdmReference objects constructor.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="validateGeneratedCohortSet.html">validateGeneratedCohortSet()</a></code> 
+        </dt>
+        <dd>To assess if an object is a valid GeneratedCohortSet.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="cdmreference">CdmReference<a class="anchor" aria-label="anchor" href="#cdmreference"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="newCdmReference.html">newCdmReference()</a></code> 
+        </dt>
+        <dd>CdmReference objects constructor</dd>
+      </dl><dl><dt>
+          
+          <code><a href="validateCdmReference.html">validateCdmReference()</a></code> 
+        </dt>
+        <dd>Validate a CdmReferenceObject.</dd>
+      </dl></div><div class="section level2">
+      <h2 id="methods">Methods<a class="anchor" aria-label="anchor" href="#methods"></a></h2>
+      
+      
+
+      
+    </div><div class="section level2">
+      
+      <h3 id="bind-more-than-one-element-from-the-same-class">Bind more than one element from the same class<a class="anchor" aria-label="anchor" href="#bind-more-than-one-element-from-the-same-class"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
           <code><a href="bind.html">bind()</a></code> 
         </dt>
@@ -62,35 +212,21 @@
         <dd>Bind multiple cdm_reference objects.</dd>
       </dl><dl><dt>
           
-          <code><a href="cash-.cdm_reference.html">`$`(<i>&lt;cdm_reference&gt;</i>)</a></code> 
+          <code><a href="bind.GeneratedCohortSet.html">bind(<i>&lt;GeneratedCohortSet&gt;</i>)</a></code> 
         </dt>
-        <dd>Subset a cdm reference object</dd>
-      </dl><dl><dt>
-          
-          <code><a href="checkInput.html">checkInput()</a></code> 
-        </dt>
-        <dd>Check the input parameters in OMOP CDM Tools environment</dd>
-      </dl><dl><dt>
-          
-          <code><a href="cohortAttrition.html">cohortAttrition()</a></code> 
-        </dt>
-        <dd>Get cohort attrition from a GeneratedCohortSet object.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="cohortCount.html">cohortCount()</a></code> 
-        </dt>
-        <dd>Get cohort counts from a GeneratedCohortSet object.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="cohortSet.html">cohortSet()</a></code> 
-        </dt>
-        <dd>Get cohort settings from a GeneratedCohortSet object.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="export.GeneratedCohortSet.html">export(<i>&lt;GeneratedCohortSet&gt;</i>)</a></code> 
-        </dt>
-        <dd>Export a GeneratedCohortSet.</dd>
-      </dl><dl><dt>
+        <dd>Bind multiple GeneratedCohortSet objects.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="export-one-element-to-a-tibble">Export one element to a tibble<a class="anchor" aria-label="anchor" href="#export-one-element-to-a-tibble"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
           <code><a href="export.html">export()</a></code> 
         </dt>
@@ -102,44 +238,73 @@
         <dd>Export a cdm_reference</dd>
       </dl><dl><dt>
           
-          <code><a href="exportResults.html">exportResults()</a></code> 
+          <code><a href="export.GeneratedCohortSet.html">export(<i>&lt;GeneratedCohortSet&gt;</i>)</a></code> 
         </dt>
-        <dd>Export list of results</dd>
-      </dl><dl><dt>
+        <dd>Export a GeneratedCohortSet.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="cohortset-of-a-generatedcohortset">CohortSet of a GeneratedCohortSet<a class="anchor" aria-label="anchor" href="#cohortset-of-a-generatedcohortset"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
-          <code><a href="listInputCheck.html">listInputCheck()</a></code> 
+          <code><a href="cohortSet.html">cohortSet()</a></code> 
         </dt>
-        <dd>List available inputs to check</dd>
-      </dl><dl><dt>
+        <dd>Get cohort settings from a GeneratedCohortSet object.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="cohortattrition-of-a-generatedcohortset">CohortAttrition of a GeneratedCohortSet<a class="anchor" aria-label="anchor" href="#cohortattrition-of-a-generatedcohortset"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
-          <code><a href="mockCdm.html">mockCdm()</a></code> 
+          <code><a href="cohortAttrition.html">cohortAttrition()</a></code> 
         </dt>
-        <dd>It creates a mock cdm_reference.</dd>
-      </dl><dl><dt>
+        <dd>Get cohort attrition from a GeneratedCohortSet object.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="cohortcount-of-a-generatedcohortset">CohortCount of a GeneratedCohortSet<a class="anchor" aria-label="anchor" href="#cohortcount-of-a-generatedcohortset"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
-          <code><a href="mockVocabularyCdm.html">mockVocabularyCdm()</a></code> 
+          <code><a href="cohortCount.html">cohortCount()</a></code> 
         </dt>
-        <dd>It creates a mock database with the vocabulary.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="newCdmReference.html">newCdmReference()</a></code> 
-        </dt>
-        <dd>CdmReference objects constructor</dd>
-      </dl><dl><dt>
-          
-          <code><a href="newGeneratedCohortSet.html">newGeneratedCohortSet()</a></code> 
-        </dt>
-        <dd>CdmReference objects constructor.</dd>
-      </dl><dl><dt>
+        <dd>Get cohort counts from a GeneratedCohortSet object.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="cdm-reference-utilities">cdm_reference utilities<a class="anchor" aria-label="anchor" href="#cdm-reference-utilities"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
           <code><a href="print.cdm_reference.html">print(<i>&lt;cdm_reference&gt;</i>)</a></code> 
         </dt>
         <dd>Print a CDM reference object</dd>
-      </dl><dl><dt>
-          
-          <code><a href="setTemporary.html">setTemporary()</a></code> 
-        </dt>
-        <dd>Set temporary (or permanent) behavior for compute functions.</dd>
       </dl><dl><dt>
           
           <code><a href="sub-sub-.cdm_reference.html">`[[`(<i>&lt;cdm_reference&gt;</i>)</a></code> 
@@ -147,26 +312,12 @@
         <dd>Subset a cdm reference object</dd>
       </dl><dl><dt>
           
-          <code><a href="toCamelCase.html">toCamelCase()</a></code> 
+          <code><a href="cash-.cdm_reference.html">`$`(<i>&lt;cdm_reference&gt;</i>)</a></code> 
         </dt>
-        <dd>Convert a character to camelCase</dd>
-      </dl><dl><dt>
-          
-          <code><a href="toSnakeCase.html">toSnakeCase()</a></code> 
-        </dt>
-        <dd>Convert a character to snake_case</dd>
-      </dl><dl><dt>
-          
-          <code><a href="validateCdmReference.html">validateCdmReference()</a></code> 
-        </dt>
-        <dd>Validate a CdmReferenceObject.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="validateGeneratedCohortSet.html">validateGeneratedCohortSet()</a></code> 
-        </dt>
-        <dd>To assess if an object is a valid GeneratedCohortSet.</dd>
+        <dd>Subset a cdm reference object</dd>
       </dl></div>
-  </main></div>
+  </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
+    </nav></aside></div>
 
 
     <footer><div class="pkgdown-footer-left">
