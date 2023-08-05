@@ -16,6 +16,9 @@
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/CDMUtilities-package.html</loc>
   </url>
   <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/assertCharacter.html</loc>
+  </url>
+  <url>
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/bind.GeneratedCohortSet.html</loc>
   </url>
   <url>
@@ -40,6 +43,9 @@
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/cohortSet.html</loc>
   </url>
   <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/collect.cdm_cohort.html</loc>
+  </url>
+  <url>
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/export.GeneratedCohortSet.html</loc>
   </url>
   <url>
@@ -47,6 +53,9 @@
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/export.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/export.tbl.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/exportResults.html</loc>
@@ -64,10 +73,13 @@
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/mockVocabularyCdm.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/newCdmReference.html</loc>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/newCdmCohort.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/newGeneratedCohortSet.html</loc>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/newCdmCohort.tbl.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/newCdmReference.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/pipe.html</loc>
@@ -88,9 +100,12 @@
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/toSnakeCase.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/validateCdmReference.html</loc>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/validateCdmCohort.cdm_cohort.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/validateGeneratedCohortSet.html</loc>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/validateCdmCohort.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/validateCdmReference.html</loc>
   </url>
 </urlset>

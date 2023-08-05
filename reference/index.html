@@ -82,6 +82,11 @@
           <code><a href="listInputCheck.html">listInputCheck()</a></code> 
         </dt>
         <dd>List available inputs to check</dd>
+      </dl><dl><dt>
+          
+          <code><a href="assertCharacter.html">assertCharacter()</a></code> 
+        </dt>
+        <dd>Assert if a character fulfill certain conditions.</dd>
       </dl></div><div class="section level2">
       
       <h3 id="export-results-to-csv-and-zip-files">Export results to csv and zip files<a class="anchor" aria-label="anchor" href="#export-results-to-csv-and-zip-files"></a></h3>
@@ -143,7 +148,7 @@
       
     </div><div class="section level2">
       
-      <h3 id="generatedcohortset">GeneratedCohortSet<a class="anchor" aria-label="anchor" href="#generatedcohortset"></a></h3>
+      <h3 id="cdm-cohort">cdm_cohort<a class="anchor" aria-label="anchor" href="#cdm-cohort"></a></h3>
       
 
       
@@ -154,14 +159,24 @@
 
       <dl><dt>
           
-          <code><a href="newGeneratedCohortSet.html">newGeneratedCohortSet()</a></code> 
+          <code><a href="newCdmCohort.html">newCdmCohort()</a></code> 
         </dt>
         <dd>CdmReference objects constructor.</dd>
       </dl><dl><dt>
           
-          <code><a href="validateGeneratedCohortSet.html">validateGeneratedCohortSet()</a></code> 
+          <code><a href="newCdmCohort.tbl.html">newCdmCohort(<i>&lt;tbl&gt;</i>)</a></code> 
         </dt>
-        <dd>To assess if an object is a valid GeneratedCohortSet.</dd>
+        <dd><code>cdm_cohort</code> objects constructor.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="validateCdmCohort.html">validateCdmCohort()</a></code> 
+        </dt>
+        <dd>To assess if an object is a valid <code>cdm_cohort</code></dd>
+      </dl><dl><dt>
+          
+          <code><a href="validateCdmCohort.cdm_cohort.html">validateCdmCohort(<i>&lt;cdm_cohort&gt;</i>)</a></code> 
+        </dt>
+        <dd>To assess if an object is a valid <code>cdm_cohort</code>.</dd>
       </dl></div><div class="section level2">
       
       <h3 id="cdmreference">CdmReference<a class="anchor" aria-label="anchor" href="#cdmreference"></a></h3>
@@ -233,6 +248,11 @@
         <dd>Export an object.</dd>
       </dl><dl><dt>
           
+          <code><a href="export.tbl.html">export(<i>&lt;tbl&gt;</i>)</a></code> 
+        </dt>
+        <dd>Export a tibble</dd>
+      </dl><dl><dt>
+          
           <code><a href="export.cdm_reference.html">export(<i>&lt;cdm_reference&gt;</i>)</a></code> 
         </dt>
         <dd>Export a cdm_reference</dd>
@@ -291,7 +311,7 @@
         <dd>Get cohort counts from a GeneratedCohortSet object.</dd>
       </dl></div><div class="section level2">
       
-      <h3 id="cdm-reference-utilities">cdm_reference utilities<a class="anchor" aria-label="anchor" href="#cdm-reference-utilities"></a></h3>
+      <h3 id="other-methods">Other methods<a class="anchor" aria-label="anchor" href="#other-methods"></a></h3>
       
 
       
@@ -301,6 +321,11 @@
       
 
       <dl><dt>
+          
+          <code><a href="collect.cdm_cohort.html">collect.cdm_cohort()</a></code> 
+        </dt>
+        <dd>To collect a <code>cdm_cohort</code> object.</dd>
+      </dl><dl><dt>
           
           <code><a href="print.cdm_reference.html">print(<i>&lt;cdm_reference&gt;</i>)</a></code> 
         </dt>
