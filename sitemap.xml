@@ -19,7 +19,22 @@
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/assertCharacter.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/bind.GeneratedCohortSet.html</loc>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/assertChoice.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/assertList.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/assertLogical.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/assertNumeric.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/assertTibble.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/bind.cdm_cohort.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/bind.cdm_reference.html</loc>
@@ -49,7 +64,7 @@
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/collect.cdm_cohort.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/export.GeneratedCohortSet.html</loc>
+    <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/export.cdm_cohort.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/CDMUtilities/reference/export.cdm_reference.html</loc>
