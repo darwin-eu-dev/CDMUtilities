@@ -28,7 +28,7 @@
 useAlias <- function(originalCase = c("camelCase", "snake_case"),
                      newCase = c("camelCase", "snake_case")) {
   # initial checks
-  checkInput(originalCase = originalCase, newCase = newCase)
+ # checkInput(originalCase = originalCase, newCase = newCase)
 
   # check that you can load current
   call <- rlang::env_parent()
