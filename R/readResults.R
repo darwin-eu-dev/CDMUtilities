@@ -30,5 +30,5 @@ readResults <- function(path) {
   for (file in results) {
     collection[[basename(file)]] <- readr::read_csv(file)
   }
-  return(resultCollection(collection))
+  #return(resultCollection(collection))
 }
