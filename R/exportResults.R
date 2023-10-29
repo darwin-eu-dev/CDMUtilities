@@ -30,31 +30,31 @@ exportResults <- function(...,
                           resultsStem = "results",
                           studyId = NULL,
                           zip = TRUE) {
-  # initial checks
-  elements <- list(...)
-  checkInput(
-   elements = elements, path = path, resultsStem = resultsStem, zip = zip,
-   studyId = studyId
-  )
-
-  # correct names
-  names(elements) <- paste0(resultsStem, names(elements), ".csv")
-
-  # export
-  for (k in seq_along(elements)) {
-    export(elements[[k]]) |>
-      dplyr::mutate("study_id" = .env$studyId) |>
-      dplyr::relocate("study_id") |>
-      readr::write_csv(file = paste0(path, "/", names(elements)[k]))
-  }
-
-  # zip if needed
-  if (zip == TRUE) {
-    zip::zipr(
-      zipfile = file.path(here::here(paste0(resultsStem, ".zip"))),
-      files = names(elements)
-    )
-  }
+  # # initial checks
+  # elements <- list(...)
+  # checkInput(
+  #  elements = elements, path = path, resultsStem = resultsStem, zip = zip,
+  #  studyId = studyId
+  # )
+  #
+  # # correct names
+  # names(elements) <- paste0(resultsStem, names(elements), ".csv")
+  #
+  # # export
+  # for (k in seq_along(elements)) {
+  #   export(elements[[k]]) |>
+  #     dplyr::mutate("study_id" = .env$studyId) |>
+  #     dplyr::relocate("study_id") |>
+  #     readr::write_csv(file = paste0(path, "/", names(elements)[k]))
+  # }
+  #
+  # # zip if needed
+  # if (zip == TRUE) {
+  #   zip::zipr(
+  #     zipfile = file.path(here::here(paste0(resultsStem, ".zip"))),
+  #     files = names(elements)
+  #   )
+  # }
 
   # return
   return(invisible(NULL))

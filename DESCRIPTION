@@ -1,6 +1,6 @@
 Package: OMOPUtilities
-Title: Methods, Utilities and Classes for the OMOP Common Data Model
-Version: 0.0.0.9000
+Title: Utilities for the OMOP Common Data Model framework
+Version: 0.0.1
 Authors@R: c(
     person(
         "Marti", "Catala", email = "marti.catalasabate@ndorms.ox.ac.uk", 
@@ -16,12 +16,10 @@ RoxygenNote: 7.2.3
 Imports: 
     cli,
     dplyr,
-    glue,
     here,
     methods,
     readr,
-    rlang,
-    zip
+    rlang
 Depends: 
     R (>= 4.1)
 Suggests: 

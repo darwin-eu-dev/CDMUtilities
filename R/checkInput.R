@@ -65,7 +65,7 @@ config <- function(inputs, .options) {
 
   # check names in .options different from inputs
   if (any(names(.options) %in% names(inputs))) {
-    cli::cli_abort("Option names cna not be the same than an input.")
+    cli::cli_abort("Option names can not be the same than an input.")
   }
 
   # read available functions
@@ -149,8 +149,14 @@ getAvailableFunctions <- function() {
 
   # functions available in source package
   packageName <- methods::getPackageName()
-  name <- getNamespaceExports(packageName)
-  functionsSourcePackage <- dplyr::tibble(package = packageName, name =  name)
+  if (packageName != ".GlobalEnv") {
+    name <- getNamespaceExports(packageName)
+    functionsSourcePackage <- dplyr::tibble(package = packageName, name =  name)
+  } else {
+    functionsSourcePackage <- dplyr::tibble(
+      package = character(), name =  character()
+    )
+  }
 
   # eliminate standard checks if present in source package
   functions <- functionsOMOPUtilities |>
@@ -165,7 +171,7 @@ getAvailableFunctions <- function() {
     ))
 
   # add argument
-  functions <- addArgument(functions)
+  functions <- addArgument(functions, exclude = "call")
 
   return(functions)
 }
@@ -174,7 +180,7 @@ getAvailableFunctions <- function() {
 #'
 #' @noRd
 #'
-addArgument <- function(functions) {
+addArgument <- function(functions, exclude = character()) {
   functions |>
     dplyr::rowwise() |>
     dplyr::group_split() |>
@@ -183,6 +189,7 @@ addArgument <- function(functions) {
         x$package == "OMOPUtilities", x$name, paste0(x$package, "::", x$name)
       )
       argument <- formals(eval(parse(text = nam)))
+      argument <- argument[!names(argument) %in% exclude]
       requiredArgument <- lapply(argument, function(x){
         xx <- x
         missing(xx)

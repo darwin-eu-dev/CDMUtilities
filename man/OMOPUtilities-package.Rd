@@ -4,7 +4,7 @@
 \name{OMOPUtilities-package}
 \alias{OMOPUtilities}
 \alias{OMOPUtilities-package}
-\title{OMOPUtilities: Methods, Utilities and Classes for the OMOP Common Data Model}
+\title{OMOPUtilities: Utilities for the OMOP Common Data Model framework}
 \description{
 This package provides methods and utilities functionalities for the OMOP Common Data Model based packages. This package also mantains the core classes.
 }
